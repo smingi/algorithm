@@ -1,7 +1,7 @@
 # 백준 1012 유기농 배추
 
 
-def bfs(i, j):  # 배추있는 곳만 탐색
+def bfs(i, j):  # 배추있는 곳 탐색
     q = []
     q.append((i, j))
     while q:
