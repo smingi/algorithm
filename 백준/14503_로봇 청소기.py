@@ -58,4 +58,5 @@ lst = [list(map(int, input().split())) for _ in range(N)]
 lst[sr][sc] = 2  # 2는 청소한 곳
 cnt = 1  # 청소한 장소 개수
 move(sr, sc, d, 0)
+
 print(cnt)
