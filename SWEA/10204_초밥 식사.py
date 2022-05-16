@@ -13,4 +13,5 @@ for tc in range(1, T+1):
             A += lst[i][0]
         else:
             B += lst[i][1]
+            
     print('#{} {}'.format(tc, A - B))
