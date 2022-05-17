@@ -1,5 +1,6 @@
 # 10912. 외로운 문자
 
+
 t = int(input())
 for tc in range(1, t+1):
     s = list(input())  # 문자열을 리스트로 입력받음
