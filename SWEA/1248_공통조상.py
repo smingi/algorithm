@@ -34,4 +34,5 @@ for tc in range(1, T+1):
     result = find_p(B)  # 공통 조상노드
     subtree = [result]  # 서브트리 저장 리스트
     find_subtree(result)
+    
     print('#{} {} {}'.format(tc, result, len(subtree)))
