@@ -20,4 +20,5 @@ def binary(N, A, B):
 
 N, A, B = map(int, input().split())  # N: 사람수, A: 사람1, B: 사람2
 result = binary(N, A, B)  # 이진검색
+
 print(result)
