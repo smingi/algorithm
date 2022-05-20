@@ -15,4 +15,5 @@ for tc in range(1, t+1):
         if speed < 0: # 뒤로가기 방지
             speed = 0
         distance += speed
+        
     print('#{} {}'.format(tc, distance))
