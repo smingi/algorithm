@@ -19,4 +19,5 @@ for tc in range(1, T+1):
     nums = []  # 숫자 조합
     find_numbers(0, 0, 0)
     nums.sort(reverse=True)
+    
     print('#{} {}'.format(tc, nums[4]))
