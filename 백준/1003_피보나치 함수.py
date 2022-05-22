@@ -11,4 +11,5 @@ for i in range(3, 41):
 T = int(input())
 for tc in range(1, T+1):
     N = int(input())
+    
     print(lst[N][0], lst[N][1])
