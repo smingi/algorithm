@@ -19,6 +19,7 @@ n = int(input())
 lst = []  # 결과리스트
 suml = []  # 중복방지 리스트
 brute(n, 0, 0)  # 함수사용
+
 print(len(lst))
 
 
