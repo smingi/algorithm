@@ -9,4 +9,5 @@ result = len(s)
 cnt[7] -= cnt[2]
 for i in range(len(lst)):
     result -= (len(lst[i])-1) * cnt[i]
+    
 print(result)
