@@ -20,4 +20,5 @@ N = int(input())
 marbles = list(map(int, input().split()))
 energy = 0  # 에너지
 get_maxv(0, list(marbles))
+
 print(energy)
