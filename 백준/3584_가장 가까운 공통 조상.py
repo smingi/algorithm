@@ -27,4 +27,5 @@ for tc in range(1, T+1):
             result = A_lst[i]
             break
         i += 1
+        
     print(result)
