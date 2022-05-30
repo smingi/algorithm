@@ -12,4 +12,5 @@ for tc in range(1, t+1):
         h = h1 + h2 - 12
     else:
         h = h1 + h2
+        
     print('#{} {} {}'.format(tc, h, m))
