@@ -11,4 +11,5 @@ nx_idx = (w_lst.index(x) + t) % len(w_lst)  # 이동한 가로축의 인덱스
 ny_idx = (h_lst.index(y) + t) % len(h_lst)  # 이동한 세로축의 인덱스
 nx = w_lst[nx_idx]  # 이동한 가로축 위치
 ny = h_lst[ny_idx]  # 이동한 세로축 위치
+
 print(nx, ny)
