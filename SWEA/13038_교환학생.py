@@ -19,4 +19,5 @@ for tc in range(1, T+1):
                 day += 1
             if minv > day:
                 minv = day
+                
     print('#{} {}'.format(tc, minv))
