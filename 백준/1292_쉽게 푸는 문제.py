@@ -5,4 +5,5 @@ s, e = map(int, input().split())
 for i in range(1, 47):
     number = [i]*i
     lst += number
+    
 print(sum(lst[s:e+1]))
