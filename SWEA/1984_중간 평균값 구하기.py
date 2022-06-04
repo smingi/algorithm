@@ -19,4 +19,5 @@ for tc in range(n):
         total += i
     maxv, minv = max_min(lst)
     avg = round((total - maxv - minv)/(len(lst)-2))
+    
     print('#{0} {1}'.format(tc+1,avg))
