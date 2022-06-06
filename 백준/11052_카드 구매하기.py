@@ -10,4 +10,5 @@ for i in range(1, N):
     for j in range(i):
         if D[i] < max(D[j]+D[i-j-1], cards[i]):
             D[i] = max(D[j]+D[i-j-1], cards[i])
+            
 print(D[N-1])
