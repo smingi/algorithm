@@ -9,4 +9,5 @@ B.sort(reverse=True)
 result = 0
 for i in range(N):
     result += A[i] * B[i]
+    
 print(result)
