@@ -13,4 +13,5 @@ for tc in range(1, t+1):
         t = d / (f+a)
         distance += d - a * t
         d = f * t - b * t
+        
     print('#{} {}'.format(tc, distance))
