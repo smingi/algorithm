@@ -24,4 +24,5 @@ for _ in range(edges):
 visited = [0] * (N+1)
 visited[1] = 1
 bfs(1)
+
 print(sum(visited)-1)
