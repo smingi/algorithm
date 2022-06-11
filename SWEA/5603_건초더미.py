@@ -30,4 +30,5 @@ for tc in range(1, t+1):
             hay[p_idx] = 0
             p_idx += 1
             hay[m_idx] = temp
+            
     print('#{} {}'.format(tc, cnt))
