@@ -11,4 +11,5 @@ for tc in range(1, T+1):
     sumv = 0
     for i in range(N):
         sumv += biscuit[i] * ingredient[i]
+        
     print('#{} {}'.format(tc, sumv))
