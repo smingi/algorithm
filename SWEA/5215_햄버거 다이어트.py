@@ -21,4 +21,5 @@ for tc in range(1, T+1):
     lst = [list(map(int, input().split())) for _ in range(N)]  # [맛, 칼로리]
     maxv = 0  # 최대값
     find_maxv(0, 0, 0)  # 재귀
+    
     print('#{} {}'.format(tc, maxv))
