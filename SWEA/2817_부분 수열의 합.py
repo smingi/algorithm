@@ -21,5 +21,6 @@ for tc in range(1, T+1):
     lst = list(map(int, input().split()))
     cnt = 0  # 개수
     subset(0, 0)  # 부분집합
+    
     print('#{} {}'.format(tc, cnt))
 
