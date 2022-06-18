@@ -25,4 +25,5 @@ for i in range(N):
         if not lst[i][j]:
             D[i][j] = 0
 prim()
+
 print(D[N-1][M-1]+1)
