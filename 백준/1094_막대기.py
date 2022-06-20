@@ -13,6 +13,7 @@ sumv = 0
 for num in bar_lst:
     if sumv == x:
         break
+        
     if sumv < x and sumv + num <= x:
         sumv += num
         result += 1
