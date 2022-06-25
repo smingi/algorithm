@@ -25,5 +25,6 @@ for _ in range(N-1):
     lst[b].append(a)
     lst[a].append(b)  # 양방향
 find_p(1)  # 부모노드 찾기
+
 for i in range(2, len(p)):
     print(p[i])
