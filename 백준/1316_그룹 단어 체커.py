@@ -7,6 +7,7 @@ for _ in range(t):
     word_lst = [] # 중복 단어 체크 리스트
     idx = 0 # 인덱스
     t_word = word[idx] # 임시 단어 (반복중인 단어)
+    
     while idx < len(word):
         if word[idx] in word_lst and word[idx] != t_word: # 조건에 안맞으면 중지
             break
