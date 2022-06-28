@@ -8,6 +8,7 @@ right = []  # 오른쪽 힙(큰수 리스트) - 최소 힙
 
 for i in range(N):
     num = int(sys.stdin.readline())  # 들어온 숫자
+    
     if len(left) == len(right):
         heapq.heappush(left, -num)  # heapq는 최소 힙만 가능(-로 최대 힙으로 만들기)
     else:
