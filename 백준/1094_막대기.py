@@ -3,6 +3,7 @@
 
 bar_lst = []
 number = 64
+
 while number > 0:
     bar_lst.append(number)
     number //= 2
