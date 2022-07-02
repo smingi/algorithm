@@ -11,6 +11,7 @@ def brute(n, cnt, sumv):
         if sumv not in lst:
             lst.append(sumv)
         return
+    
     for i in [1, 5, 10, 50]:  # 탐색
         brute(n, cnt+1, sumv+i)
 
