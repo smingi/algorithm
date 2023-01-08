@@ -10,7 +10,7 @@ def find_parent(x):  # 부모노드 찾기
     return parent[x]
 
 
-def union(a, b):  # 연결하기기
+def union(a, b):  # 연결하기
     p_a = find_parent(a)
     p_b = find_parent(b)
 
