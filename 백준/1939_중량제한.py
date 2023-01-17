@@ -1,7 +1,6 @@
 # 백준 1939_중량제한
 
 import sys
-sys.stdin = open("input.txt", "r")
 
 
 def find_parent(x):  # 부모노드 찾기
